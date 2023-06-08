@@ -1,6 +1,6 @@
 import '@styles/globals.css';
 import Nav from '@components/Nav';
-import Provider from '@components/Provider';
+import Provider from '@components/provider';
 
 export const metadata = {
     title: "Promptopia",
