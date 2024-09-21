@@ -57,7 +57,7 @@ const Form = ({
              className='px-5 py-1.5 text-sm 
              bg-primary-orange rounded-full text-white'
              >
-                {submitting ? '${type}...': type}
+                {submitting ? 'Submitting': type}
              </button>   
             </div>
         </form>

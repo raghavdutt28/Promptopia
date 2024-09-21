@@ -2,6 +2,9 @@ import '@styles/globals.css';
 import Nav from '@components/Nav';
 import Provider from '@components/provider';
 
+import dotenv from 'dotenv';
+dotenv.config();
+
 export const metadata = {
     title: "Promptopia",
     description: 'Discover & Share AI Prompts'
